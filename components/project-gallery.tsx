@@ -21,7 +21,7 @@ function ProjectImage({
           aria-label={`${title}, ${label}`}
         >
           <div>
-            <p>kuva tähän</p>
+            <p>Kuva Tähän</p>
             <p className="placeholder-hint">{path}</p>
           </div>
         </div>
@@ -44,13 +44,13 @@ export function ProjectGallery() {
 
           <div className="project-grid">
             <ProjectImage
-              label="ennen"
+              label="Ennen"
               path={project.beforeImage}
               title={project.title}
               placeholder={project.placeholder}
             />
             <ProjectImage
-              label="jälkeen"
+              label="Jälkeen"
               path={project.afterImage}
               title={project.title}
               placeholder={project.placeholder}

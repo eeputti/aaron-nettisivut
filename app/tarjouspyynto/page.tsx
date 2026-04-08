@@ -11,11 +11,11 @@ export default function TarjouspyyntoPage() {
           <p className="eyebrow">Jätä tarjouspyyntö</p>
           <h1>Jätä tarjouspyyntö</h1>
           <p className="lead">
-            laita tästä viestiä jos tarttet tekijää johonki hommaan. Viesti
-            lähtee oman sähköpostiohjelman kautta osoitteeseen {company.email}.
+            Laita Tästä Viestiä Jos Tarttet Tekijää Johonki Hommaan. Viesti
+            Lähtee Oman Sähköpostiohjelman Kautta Osoitteeseen {company.email}.
           </p>
           <ContactForm />
-          <p className="note">Aaro palailee kun viesti on lähteny.</p>
+          <p className="note">Aaro Palailee Kun Viesti On Lähteny.</p>
         </div>
       </main>
     </>

@@ -9,8 +9,8 @@ export default function HomePage() {
           <p className="eyebrow">Etusivu</p>
           <h1>AP Powerbuilding &amp; Demolition Tmi</h1>
           <p className="lead">
-            tähän tulee myöhemmin vähän lisää tietoa firmasta tai jotai. nyt
-            tässä on vaan perus etusivu.
+            Tähän Tulee Myöhemmin Vähän Lisää Tietoa Firmasta Tai Jotai. Nyt
+            Tässä On Vaan Perus Etusivu.
           </p>
           <a className="button-link" href="/tarjouspyynto">
             Jätä tarjouspyyntö

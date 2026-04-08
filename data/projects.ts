@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     slug: "kylppariremppa",
     title: "Kylppäriremppa",
-    category: "esimerkki",
+    category: "Esimerkki",
     beforeImage: "/images/projects/project-1/before.jpg",
     afterImage: "/images/projects/project-1/after.jpg",
     placeholder: true,
@@ -19,7 +19,7 @@ export const projects: Project[] = [
   {
     slug: "saneeraus",
     title: "Saneeraus",
-    category: "esimerkki",
+    category: "Esimerkki",
     beforeImage: "/images/projects/project-2/before.jpg",
     afterImage: "/images/projects/project-2/after.jpg",
     placeholder: true,
@@ -27,7 +27,7 @@ export const projects: Project[] = [
   {
     slug: "purkutyot",
     title: "Purkutyöt",
-    category: "esimerkki",
+    category: "Esimerkki",
     beforeImage: "/images/projects/project-3/before.jpg",
     afterImage: "/images/projects/project-3/after.jpg",
     placeholder: true,
