@@ -1,16 +1,19 @@
 "use client";
 
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const navItems = [
-  { href: "#tarjouspyynto", label: "Jätä tarjouspyyntö" },
-  { href: "#ennen-jalkeen", label: "Ennen & jälkeen" },
-  { href: "#yhteystiedot", label: "Yhteystiedot" },
-  { href: "#etusivu", label: "Etusivu" },
+  { href: "/", label: "Etusivu" },
+  { href: "/tarjouspyynto", label: "Jätä tarjouspyyntö" },
+  { href: "/ennen-jalkeen", label: "Ennen & jälkeen" },
+  { href: "/yhteystiedot", label: "Yhteystiedot" },
 ];
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   const closeMenu = () => setOpen(false);
 
@@ -18,9 +21,9 @@ export function Header() {
     <header className="site-header">
       <div className="container">
         <div className="header-inner">
-          <a className="brand" href="#etusivu">
+          <Link className="brand" href="/">
             AP Powerbuilding &amp; Demolition Tmi
-          </a>
+          </Link>
 
           <button
             type="button"
@@ -36,7 +39,12 @@ export function Header() {
             <ul className="nav-list">
               {navItems.map((item) => (
                 <li key={item.href}>
-                  <a href={item.href}>{item.label}</a>
+                  <Link
+                    href={item.href}
+                    className={pathname === item.href ? "active" : undefined}
+                  >
+                    {item.label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -51,9 +59,13 @@ export function Header() {
           <ul className="nav-list">
             {navItems.map((item) => (
               <li key={item.href}>
-                <a href={item.href} onClick={closeMenu}>
+                <Link
+                  href={item.href}
+                  className={pathname === item.href ? "active" : undefined}
+                  onClick={closeMenu}
+                >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

@@ -1,11 +1,25 @@
 # AP Powerbuilding & Demolition Tmi
 
-Yksinkertainen Next.js-sivusto yritykselle AP Powerbuilding & Demolition Tmi.
+Yksinkertainen monisivuinen Next.js-sivusto yritykselle AP Powerbuilding & Demolition Tmi.
 
 ## Käynnistys
 
 1. Asenna riippuvuudet komennolla `npm install`
 2. Käynnistä kehityspalvelin komennolla `npm run dev`
+
+## Sivut
+
+- `/` etusivu
+- `/tarjouspyynto`
+- `/ennen-jalkeen`
+- `/yhteystiedot`
+
+## Tekstien muokkaus
+
+- Etusivu: `app/page.tsx`
+- Tarjouspyyntö: `app/tarjouspyynto/page.tsx`
+- Ennen & jälkeen -sivu: `app/ennen-jalkeen/page.tsx`
+- Yhteystiedot: `app/yhteystiedot/page.tsx`
 
 ## Ennen & jälkeen -kohteiden lisääminen
 
@@ -19,14 +33,13 @@ Esimerkki:
 {
   slug: "keittio-remontti",
   title: "Keittiöremontti",
-  category: "Remontti",
+  category: "esimerkki",
   beforeImage: "/images/projects/keittio-remontti/before.jpg",
   afterImage: "/images/projects/keittio-remontti/after.jpg",
-  description: "Lyhyt kuvaus kohteesta.",
   placeholder: false,
 }
 ```
 
 ## Yhteystietojen muuttaminen
 
-Päivitä yrityksen tiedot tiedostossa `data/company.ts`. Sivun yhteystiedot ja lomakkeen sähköpostiosoite käyttävät samaa tiedostoa.
+Päivitä yrityksen tiedot tiedostossa `data/company.ts`. Yhteystiedot-sivu ja lomakkeen sähköpostiosoite käyttävät samaa tiedostoa.

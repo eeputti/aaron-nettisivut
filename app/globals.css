@@ -11,7 +11,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
@@ -50,12 +50,8 @@ textarea {
   padding: 4rem 0;
 }
 
-.section-border {
-  border-top: 1px solid var(--border);
-}
-
-.hero {
-  padding-top: 7rem;
+.page-block {
+  padding-top: 1rem;
 }
 
 .flow > * + * {
@@ -92,7 +88,7 @@ h2 {
 }
 
 .lead {
-  max-width: 38rem;
+  max-width: 34rem;
   color: var(--muted);
 }
 
@@ -148,6 +144,11 @@ h2 {
   text-decoration: none;
 }
 
+.nav-list a.active {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .desktop-nav {
   display: none;
 }
@@ -192,7 +193,6 @@ h2 {
 }
 
 .note,
-.project-description,
 .project-category,
 .placeholder-hint {
   color: var(--muted);
@@ -210,7 +210,7 @@ h2 {
 }
 
 .project-meta {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .project-grid {
