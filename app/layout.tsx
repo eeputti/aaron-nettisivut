@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "AP Powerbuilding & Demolition Tmi",
   description:
-    "AP Powerbuilding & Demolition Tmi tekee purku-, remontti- ja saneeraustöitä Ilmaristen alueella.",
+    "AP Powerbuilding & Demolition Tmi tekee purku-, remontti- ja saneeraustöitä.",
 };
 
 export default function RootLayout({
