@@ -21,7 +21,7 @@ function ProjectImage({
           aria-label={`${title}, ${label}`}
         >
           <div>
-            <p>Kuva Tähän</p>
+            <p>Kuva tähän</p>
             <p className="placeholder-hint">{path}</p>
           </div>
         </div>
