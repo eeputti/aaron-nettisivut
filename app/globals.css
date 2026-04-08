@@ -58,12 +58,6 @@ textarea {
   margin-top: 1rem;
 }
 
-.eyebrow {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
 h1,
 h2,
 h3,
@@ -80,7 +74,7 @@ h3 {
 
 h1 {
   font-size: clamp(2rem, 6vw, 3.5rem);
-  max-width: 12ch;
+  max-width: none;
 }
 
 h2 {
@@ -90,6 +84,10 @@ h2 {
 .lead {
   max-width: 34rem;
   color: var(--muted);
+}
+
+.homepage-intro .lead {
+  max-width: 48rem;
 }
 
 .site-header {
@@ -162,6 +160,12 @@ h2 {
   padding: 0.8rem 1.1rem;
   text-decoration: none;
   cursor: pointer;
+}
+
+.text-link {
+  display: inline-block;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 .contact-form {

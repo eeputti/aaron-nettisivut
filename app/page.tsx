@@ -5,13 +5,15 @@ export default function HomePage() {
     <>
       <Header />
       <main className="section">
-        <div className="container narrow page-block flow">
-          <p className="eyebrow">Etusivu</p>
-          <h1>AP Powerbuilding &amp; Demolition Tmi</h1>
+        <div className="container page-block flow homepage-intro">
+          <h1>AP Powerbuilding &amp; Demolition</h1>
           <p className="lead">
-            Tähän Tulee Myöhemmin Vähän Lisää Tietoa Firmasta Tai Jotai. Nyt
-            Tässä On Vaan Perus Etusivu.
+            kaikenlaiset hommat. kato täältä mitä oon tehny ennen ja jälkeen
+            nii osaat arvioida mitä teen.
           </p>
+          <a className="text-link" href="/ennen-jalkeen">
+            katso ennen &amp; jälkeen
+          </a>
           <a className="button-link" href="/tarjouspyynto">
             Jätä tarjouspyyntö
           </a>

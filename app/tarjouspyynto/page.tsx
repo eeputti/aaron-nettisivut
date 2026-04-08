@@ -8,7 +8,6 @@ export default function TarjouspyyntoPage() {
       <Header />
       <main className="section">
         <div className="container narrow page-block flow">
-          <p className="eyebrow">Jätä tarjouspyyntö</p>
           <h1>Jätä tarjouspyyntö</h1>
           <p className="lead">
             Laita Tästä Viestiä Jos Tarttet Tekijää Johonki Hommaan. Viesti
