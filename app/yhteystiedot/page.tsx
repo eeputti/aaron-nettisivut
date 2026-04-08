@@ -8,7 +8,6 @@ export default function YhteystiedotPage() {
       <main className="section">
         <div className="container narrow page-block flow">
           <h1>Yhteystiedot</h1>
-          <p className="lead">Tähänkin voi laittaa jotain lisää myöhemmin.</p>
           <dl className="contact-list">
             <div>
               <dt>Yritys</dt>
